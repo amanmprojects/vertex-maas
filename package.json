@@ -1,6 +1,6 @@
 {
   "name": "@amanm/vertex-maas",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "Apache-2.0",
   "sideEffects": false,
   "main": "./dist/index.js",
@@ -59,13 +59,13 @@
   "publishConfig": {
     "access": "public"
   },
-  "homepage": "https://ai-sdk.dev/docs",
+  "homepage": "https://github.com/amanmprojects/vertex-maas#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vercel/ai.git"
+    "url": "git+https://github.com/amanmprojects/vertex-maas.git"
   },
   "bugs": {
-    "url": "https://github.com/vercel/ai/issues"
+    "url": "https://github.com/amanmprojects/vertex-maas/issues"
   },
   "keywords": [
     "ai"
