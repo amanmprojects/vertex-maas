@@ -4,6 +4,12 @@ Vertex MaaS provider for the Vercel AI SDK.
 
 This provider targets **Vertex AI models exposed via OpenAI-compatible endpoints** and authenticates using **Google Application Default Credentials (ADC)** (service account JSON via `GOOGLE_APPLICATION_CREDENTIALS`, workload identity, etc.).
 
+## Requirements
+
+- Node.js runtime (not Edge)
+- ADC configured (commonly via `GOOGLE_APPLICATION_CREDENTIALS`)
+- Set `GOOGLE_VERTEX_PROJECT` and `GOOGLE_VERTEX_LOCATION` (or pass `project`/`location` to `createVertexMaaS`)
+
 ## Usage
 
 ```ts
