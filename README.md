@@ -22,7 +22,7 @@ const vertex = createVertexMaaS({
 });
 
 const result = await generateText({
-  model: vertex('glm-4.7'),
+  model: vertex('zai-org/glm-4.7-maas'),
   prompt: 'Explain Amdahl\\'s Law in simple terms.',
 });
 ```
